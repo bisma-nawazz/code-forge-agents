@@ -9,5 +9,5 @@ def median(values):
     if len(ordered) % 2:
         return ordered[middle]
     # (a + b) / 2 overflows to inf near the float limit and loses precision
-    # for large ints; mean() averages the pair exactly.
+    # for large ints; mean() sums exactly and rounds once.
     return mean(ordered[middle - 1 : middle + 1])
