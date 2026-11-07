@@ -1,3 +1,4 @@
 # textstats
 
-Small statistics helpers. Run the tests with `python -m pytest`.
+Small statistics helpers. Install the test dependencies with
+`pip install pytest hypothesis`, then run the tests with `python -m pytest`.
